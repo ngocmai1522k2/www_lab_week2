@@ -54,14 +54,7 @@ public class EmployeeRepository {
 //        Employee emp = query.getSingleResult();
 //        return emp == null ? Optional.empty() : Optional.of(emp);
 //    }
-    public Optional<Employee> findById(long id) {
-            Session session = sessionFactory.openSession();
-            trans = session.beginTransaction();
-            Employee emp = session.createNamedQuery("Employee.findByID",Employee.class)
-                    .getSingleResult();
-            trans.commit();
-            return emp == null ? Optional.empty() : Optional.of(emp);
-    }
+
     public List<Employee> getAll() {
         try {
             Session session = sessionFactory.openSession();
@@ -109,6 +102,15 @@ public class EmployeeRepository {
             return true;
         }
         return false;
+    }
+    public Optional<Employee> findById(long id) {
+        Session session = sessionFactory.openSession();
+        trans = session.beginTransaction();
+        Employee emp = session.createNamedQuery("Employee.findByID",Employee.class)
+                .setParameter("id",id)
+                .getSingleResult();
+        trans.commit();
+        return emp == null ? Optional.empty() : Optional.of(emp);
     }
 //...
 

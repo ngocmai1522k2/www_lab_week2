@@ -12,8 +12,8 @@ import java.util.List;
 @Entity
 @Table(name = "employee")
 @NamedQueries({
-        @NamedQuery(name = "Employee.findAll", query = "select e from Employee e where e.status=0"),
-        @NamedQuery(name = "Employee.findByID", query = "select e from Employee e where e.id=: id")
+        @NamedQuery(name = "Employee.findAll", query = "select e from Employee e where e.status= 0"),
+        @NamedQuery(name = "Employee.findByID", query = "select e from Employee e where e.id =: id")
 })
 public class Employee {
     @Id

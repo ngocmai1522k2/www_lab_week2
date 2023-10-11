@@ -37,12 +37,20 @@ public class EmployeeResource {
     @GET
     @Produces("application/json")
     @Path("/{id}")
-    public Response findByID(@PathParam("id") long eid) {
-        Optional<Employee> employeeOptional = employeeService.findByID(eid);
+    public Response findByID(@PathParam("id") long id) {
+        Optional<Employee> employeeOptional = employeeService.findByID(id);
         if (employeeOptional.isPresent()) {
             return Response.ok(employeeOptional.get()).build();
         }
         return Response.status(Response.Status.BAD_REQUEST).build();
+    }
+
+    @DELETE
+    @Path("/{id}")
+    public Response delete(@PathParam("id") long id) {
+        if (employeeService.delete(id))
+            return Response.ok().build();
+        return Response.status(Response.Status.NOT_FOUND).build();
     }
 
 }
