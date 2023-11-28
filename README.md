@@ -31,6 +31,7 @@ git clone [https://github.com/yourusername/week01_lab_HotenSv_mssv.git](https://
 ![image](https://github.com/ngocmai1522k2/www_lab_week2/assets/144517477/38c8e7ff-86ed-4c6b-ab84-3d0bcbf284a7)
 
 5. **Cấu trúc project:**
+   
   ![image](https://github.com/ngocmai1522k2/www_lab_week2/assets/144517477/7a0588a2-df1c-46ef-a4eb-7d2720deac85)
 
 
@@ -47,4 +48,4 @@ git clone [https://github.com/yourusername/week01_lab_HotenSv_mssv.git](https://
 
 Nếu bạn muốn đóng góp vào dự án hoặc báo cáo lỗi, vui lòng tạo issue hoặc gửi pull request vào repository GitHub của dự án.
 
-- GitHub Repository: [www_lab_week1](https://github.com/ngocmai1522k2/www_lab_week2)
+- GitHub Repository: [www_lab_week2](https://github.com/ngocmai1522k2/www_lab_week2)
