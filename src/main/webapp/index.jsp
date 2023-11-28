@@ -5,8 +5,8 @@
   <title>JSP - Hello World</title>
 </head>
 <body>
-    <a href="products.jsp">Products</a> <br/>
-    <a href="insertCustomer.jsp">Insert new Customer</a> <br/>
-    <a href="controls?action=cust_list">Customer Listing</a> <br/>
+    <a href="hello-servlet?action=product_list">Product Listing</a> <br/>
+    <a href="hello-servlet?action=emp_list">Employee Listing</a> <br/>
+    <a href="hello-servlet?action=cust_list">Customer Listing</a> <br/>
 </body>
 </html>
