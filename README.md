@@ -34,6 +34,11 @@ git clone [https://github.com/yourusername/week01_lab_HotenSv_mssv.git](https://
    
   ![image](https://github.com/ngocmai1522k2/www_lab_week2/assets/144517477/7a0588a2-df1c-46ef-a4eb-7d2720deac85)
 
+6. **Trang index:**
+ ![image](https://github.com/ngocmai1522k2/www_lab_week3/assets/144517477/33c20c44-d40f-4dfd-865d-adadbde4ae48)
+
+7. **Trang danh sách nhân viên:**
+   ![image](https://github.com/ngocmai1522k2/www_lab_week3/assets/144517477/12230d23-f8e8-4f9d-b2b7-d12f4c28c7e5)
 
 
 ## Tài liệu liên quan
