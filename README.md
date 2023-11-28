@@ -40,6 +40,11 @@ git clone [https://github.com/yourusername/week01_lab_HotenSv_mssv.git](https://
 7. **Trang danh sách nhân viên:**
    ![image](https://github.com/ngocmai1522k2/www_lab_week3/assets/144517477/12230d23-f8e8-4f9d-b2b7-d12f4c28c7e5)
 
+8.**API getAll Employees:** 
+![image](https://github.com/ngocmai1522k2/www_lab_week2/assets/144517477/6e0294f9-0067-4568-97f4-f4a45971a2da)
+
+![image](https://github.com/ngocmai1522k2/www_lab_week2/assets/144517477/77a6cf41-54e6-43dd-a8be-b690bc7f72de)
+
 
 ## Tài liệu liên quan
 
