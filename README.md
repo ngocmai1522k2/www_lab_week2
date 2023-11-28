@@ -44,6 +44,8 @@ git clone [https://github.com/yourusername/week01_lab_HotenSv_mssv.git](https://
 ![image](https://github.com/ngocmai1522k2/www_lab_week2/assets/144517477/6e0294f9-0067-4568-97f4-f4a45971a2da)
 
 ![image](https://github.com/ngocmai1522k2/www_lab_week2/assets/144517477/77a6cf41-54e6-43dd-a8be-b690bc7f72de)
+ **get All Customers:**
+ ![image](https://github.com/ngocmai1522k2/www_lab_week2/assets/144517477/b3a747b6-a0ae-41a3-b35b-5ef6f89512e6)
 
 
 ## Tài liệu liên quan
